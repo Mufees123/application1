@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="generalDetailsVM" type="com.application.app.modules.generaldetails.data.viewmodel.GeneralDetailsVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearGeneraldetails"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearGroup133"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginTop="@dimen/_33pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtGeneralDetails"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{generalDetailsVM.generalDetailsModel.txtGeneralDetails}"
+                style="@style/txtIntersemibold30" tools:text="@string/lbl_general_details"/>
+            <EditText android:ellipsize="end"
+                android:hint="@string/lbl_name" android:id="@+id/etName"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_7pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_43pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingStart="@dimen/_16pxh"
+                android:paddingTop="@dimen/_17pxv"
+                android:singleLine="true"
+                android:text="@={generalDetailsVM.generalDetailsModel.etNameValue}"
+                android:textColorHint="@color/gray_401" style="@style/etIntermedium16"/>
+            <EditText android:ellipsize="end"
+                android:hint="@string/lbl_phone_number"
+                android:id="@+id/etPhoneNumber"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_7pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_30pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingStart="@dimen/_16pxh"
+                android:paddingTop="@dimen/_17pxv"
+                android:singleLine="true"
+                android:text="@={generalDetailsVM.generalDetailsModel.etPhoneNumberValue}"
+                android:textColorHint="@color/gray_401" style="@style/etIntermedium16"/>
+            <EditText android:ellipsize="end"
+                android:hint="@string/lbl_state"
+                android:id="@+id/etState"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_30pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_16pxv"
+                android:paddingStart="@dimen/_9pxh"
+                android:paddingTop="@dimen/_17pxv"
+                android:singleLine="true"
+                android:text="@={generalDetailsVM.generalDetailsModel.etStateValue}"
+                android:textColorHint="@color/gray_401" style="@style/etIntermedium16"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:gravity="center_horizontal"
+                android:id="@+id/recyclerGeneralDetails"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                itemSpace="@{@dimen/_38pxh}" tools:itemCount="2" tools:listitem="@layout/row_general_details1"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnNext"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_84pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_21pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_16pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_next"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_next"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
