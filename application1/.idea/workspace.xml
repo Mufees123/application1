@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="372d32ed-43e3-4219-98ef-63f6c9b51f9c" name="Default Changelist" comment="" />
+    <list default="true" id="372d32ed-43e3-4219-98ef-63f6c9b51f9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="settings.editor.splitter.proportion" value="0.24120083" />
   </component>
   <component name="SvnConfiguration">
@@ -90,5 +92,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="642" y="310" key="Github.ShareDialog/0.0.1536.816@0.0.1536.816" timestamp="1652679277264" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1652682422284">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1652682422284" />
   </component>
 </project>
