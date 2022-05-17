@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="android.sdk.path" value="F:/android-sdk" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application1/app" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.24120083" />
   </component>
@@ -96,27 +96,5 @@
     <MESSAGE value="m" />
     <MESSAGE value="m1" />
     <option name="LAST_COMMIT_MESSAGE" value="m1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="654" y="275" key="#Notifications" timestamp="1652678398352">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="654" y="275" key="#Notifications/0.0.1536.816@0.0.1536.816" timestamp="1652678398352" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1652678582226">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1652678582226" />
-    <state x="647" y="310" key="Github.ShareDialog" timestamp="1652682819335">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.816@0.0.1536.816" timestamp="1652682819335" />
-    <state x="100" y="104" width="1336" height="616" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1652678354531">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="100" y="104" width="1336" height="616" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1652678354531" />
-    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652682823627">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1652682823627" />
   </component>
 </project>
